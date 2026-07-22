@@ -40,6 +40,8 @@ export default function CategoryItems() {
                 "/frozenfish/4.jpg",
                 "/frozenfish/5.jpg",
                 "/frozenfish/6.jpg",
+                "/frozenfish/7.jpg",
+                "/frozenfish/8.jpg"
             ],
         },
         {
