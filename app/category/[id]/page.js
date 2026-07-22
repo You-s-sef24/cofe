@@ -4,6 +4,8 @@ import Gallery from "@/components/Gallery";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Sparkles } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import PriceInquirySection from "@/components/PriceInquirySection";
 
 export default function CategoryItems() {
     const { id } = useParams();
@@ -122,6 +124,7 @@ export default function CategoryItems() {
                 </div>
 
                 <Gallery images={images} categoryName={activeCategory.name} />
+                <PriceInquirySection categoryName={activeCategory.name} />
             </div>
         </div>
     );
