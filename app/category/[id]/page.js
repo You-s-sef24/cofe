@@ -9,11 +9,63 @@ export default function CategoryItems() {
     const { id } = useParams();
 
     const categories = [
-        { id: "freshvegfruit", name: "Fresh Vegetables & Fruits" },
-        { id: "frozenveg", name: "Frozen Vegetables" },
-        { id: "frozenfish", name: "Frozen Fish & Shrimp" },
-        { id: "snacks", name: "Snacks" },
-        { id: "cosmetics", name: "Cosmetics" },
+        {
+            id: "freshvegfruit",
+            name: "Fresh Vegetables & Fruits",
+            images: [
+                "/freshvegfruit/1.jpg",
+                "/freshvegfruit/2.jpg",
+                "/freshvegfruit/3.jpg",
+                "/freshvegfruit/4.jpg",
+                "/freshvegfruit/5.jpg",
+                "/freshvegfruit/6.jpg",
+            ],
+        },
+        {
+            id: "frozenveg",
+            name: "Frozen Vegetables",
+            images: [
+                "/frozenveg/1.jpg",
+                "/frozenveg/2.jpg",
+                "/frozenveg/3.jpg",
+            ],
+        },
+        {
+            id: "frozenfish",
+            name: "Frozen Fish & Shrimp",
+            images: [
+                "/frozenfish/1.jpg",
+                "/frozenfish/2.jpg",
+                "/frozenfish/3.jpg",
+                "/frozenfish/4.jpg",
+                "/frozenfish/5.jpg",
+                "/frozenfish/6.jpg",
+            ],
+        },
+        {
+            id: "snacks",
+            name: "Snacks",
+            images: [
+                "/snacks/1.jpg",
+                "/snacks/2.jpg",
+                "/snacks/3.jpg",
+                "/snacks/4.jpg",
+                "/snacks/5.jpg",
+                "/snacks/6.jpg",
+            ],
+        },
+        {
+            id: "cosmetics",
+            name: "Cosmetics",
+            images: [
+                "/cosmetics/1.jpg",
+                "/cosmetics/2.jpg",
+                "/cosmetics/3.jpg",
+                "/cosmetics/4.jpg",
+                "/cosmetics/5.jpg",
+                "/cosmetics/6.jpg",
+            ],
+        },
     ];
 
     const activeCategory = categories.find((c) => c.id === id) || {
@@ -21,7 +73,7 @@ export default function CategoryItems() {
         name: id,
     };
 
-    const images = Array.from({ length: 6 }, (_, i) => `/${id}/${i + 1}.jpg`);
+    const images = activeCategory.images;
 
     return (
         <div className="min-h-screen bg-gray-50/30">
@@ -58,8 +110,8 @@ export default function CategoryItems() {
                                     key={cat.id}
                                     href={`/category/${cat.id}`}
                                     className={`whitespace-nowrap px-4 py-2 rounded-full text-xs font-semibold transition-all ${isActive
-                                            ? "bg-blue-900 text-white shadow-md shadow-blue-900/10"
-                                            : "bg-white text-gray-600 border border-gray-200 hover:bg-gray-100 hover:text-gray-900"
+                                        ? "bg-blue-900 text-white shadow-md shadow-blue-900/10"
+                                        : "bg-white text-gray-600 border border-gray-200 hover:bg-gray-100 hover:text-gray-900"
                                         }`}
                                 >
                                     {cat.name}
