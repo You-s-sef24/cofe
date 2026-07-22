@@ -4,7 +4,6 @@ import Gallery from "@/components/Gallery";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Sparkles } from "lucide-react";
-import { Input } from "@/components/ui/input";
 import PriceInquirySection from "@/components/PriceInquirySection";
 
 export default function CategoryItems() {
@@ -15,57 +14,57 @@ export default function CategoryItems() {
             id: "freshvegfruit",
             name: "Fresh Vegetables & Fruits",
             images: [
-                "/freshvegfruit/1.jpg",
-                "/freshvegfruit/2.jpg",
-                "/freshvegfruit/3.jpg",
-                "/freshvegfruit/4.jpg",
-                "/freshvegfruit/5.jpg",
-                "/freshvegfruit/6.jpg",
+                "https://ik.imagekit.io/otriztido/freshvegfruit/1.jpg",
+                "https://ik.imagekit.io/otriztido/freshvegfruit/2.jpg",
+                "https://ik.imagekit.io/otriztido/freshvegfruit/3.jpg",
+                "https://ik.imagekit.io/otriztido/freshvegfruit/4.jpg",
+                "https://ik.imagekit.io/otriztido/freshvegfruit/5.jpg",
+                "https://ik.imagekit.io/otriztido/freshvegfruit/6.jpg",
             ],
         },
         {
             id: "frozenveg",
             name: "Frozen Vegetables",
             images: [
-                "/frozenveg/1.jpg",
-                "/frozenveg/2.jpg",
-                "/frozenveg/3.jpg",
+                "https://ik.imagekit.io/otriztido/frozenveg/1.jpg",
+                "https://ik.imagekit.io/otriztido/frozenveg/2.jpg",
+                "https://ik.imagekit.io/otriztido/frozenveg/3.jpg",
             ],
         },
         {
             id: "frozenfish",
             name: "Frozen Fish & Shrimp",
             images: [
-                "/frozenfish/1.jpg",
-                "/frozenfish/2.jpg",
-                "/frozenfish/3.jpg",
-                "/frozenfish/4.jpg",
-                "/frozenfish/5.jpg",
-                "/frozenfish/6.jpg",
-                "/frozenfish/7.jpg",
-                "/frozenfish/8.jpg"
+                "https://ik.imagekit.io/otriztido/frozenfish/1.jpg",
+                "https://ik.imagekit.io/otriztido/frozenfish/2.jpg",
+                "https://ik.imagekit.io/otriztido/frozenfish/3.jpg",
+                "https://ik.imagekit.io/otriztido/frozenfish/4.jpg",
+                "https://ik.imagekit.io/otriztido/frozenfish/5.jpg",
+                "https://ik.imagekit.io/otriztido/frozenfish/6.jpg",
+                "https://ik.imagekit.io/otriztido/frozenfish/7.jpg",
+                "https://ik.imagekit.io/otriztido/frozenfish/8.jpg"
             ],
         },
         {
             id: "snacks",
             name: "Snacks",
             images: [
-                "/snacks/1.jpg",
-                "/snacks/2.jpg",
-                "/snacks/3.jpg",
-                "/snacks/4.jpg",
-                "/snacks/5.jpg",
-                "/snacks/6.jpg",
+                "https://ik.imagekit.io/otriztido/snacks/1.jpg",
+                "https://ik.imagekit.io/otriztido/snacks/2.jpg",
+                "https://ik.imagekit.io/otriztido/snacks/3.jpg",
+                "https://ik.imagekit.io/otriztido/snacks/4.jpg",
+                "https://ik.imagekit.io/otriztido/snacks/5.jpg",
+                "https://ik.imagekit.io/otriztido/snacks/6.jpg",
             ],
         },
         {
             id: "cosmetics",
             name: "Cosmetics",
             images: [
-                "/cosmetics/1.jpg",
-                "/cosmetics/2.jpg",
-                "/cosmetics/3.jpg",
-                "/cosmetics/4.jpg",
+                "https://ik.imagekit.io/otriztido/cosmetics/1.jpg",
+                "https://ik.imagekit.io/otriztido/cosmetics/2.jpg",
+                "https://ik.imagekit.io/otriztido/cosmetics/3.jpg",
+                "https://ik.imagekit.io/otriztido/cosmetics/4.jpg",
             ],
         },
     ];

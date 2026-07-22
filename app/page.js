@@ -4,11 +4,11 @@ import { ImagesCarousel } from "@/components/ImagesCarousel";
 
 export default function Home() {
   const images = [
-    "/carousel/1.jpg",
-    "/carousel/2.jpg",
-    "/carousel/3.jpg",
-    "/carousel/4.jpg",
-    "/carousel/5.jpg",
+    "https://ik.imagekit.io/otriztido/carousel/1.jpg",
+    "https://ik.imagekit.io/otriztido/carousel/2.jpg",
+    "https://ik.imagekit.io/otriztido/carousel/3.jpg",
+    "https://ik.imagekit.io/otriztido/carousel/4.jpg",
+    "https://ik.imagekit.io/otriztido/carousel/5.jpg",
   ];
   const altTexts = [
     "Fresh Vegetables & Fruits",
