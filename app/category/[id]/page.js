@@ -64,8 +64,6 @@ export default function CategoryItems() {
                 "/cosmetics/2.jpg",
                 "/cosmetics/3.jpg",
                 "/cosmetics/4.jpg",
-                "/cosmetics/5.jpg",
-                "/cosmetics/6.jpg",
             ],
         },
     ];
