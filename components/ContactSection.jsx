@@ -115,7 +115,7 @@ export default function ContactSection() {
 
             <div className="flex flex-col gap-2 text-left">
               <Label htmlFor="company" className="text-gray-700 text-sm font-medium">
-                Company
+                Company <span className="text-red-500">*</span>
               </Label>
               <Input
                 id="company"

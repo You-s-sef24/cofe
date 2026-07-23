@@ -89,14 +89,9 @@ export default function CategoryItems() {
                     </Link>
 
                     <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-                        <div>
-                            <span className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full mb-2 border border-blue-100">
-                                <Sparkles className="w-3 h-3" /> Export Catalog
-                            </span>
-                            <h1 className="text-3xl md:text-5xl font-extrabold text-blue-950 tracking-tight">
-                                {activeCategory.name}
-                            </h1>
-                        </div>
+                        <h1 className="text-3xl md:text-5xl font-extrabold text-blue-950 tracking-tight">
+                            {activeCategory.name}
+                        </h1>
 
                         <p className="text-sm font-medium text-gray-500">
                             Showing <span className="text-blue-950 font-bold">{images.length}</span> items
